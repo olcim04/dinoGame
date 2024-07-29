@@ -322,5 +322,6 @@ def menu(death_count):
                 if event.key == pygame.K_ESCAPE:  # Obsługa naciśnięcia klawisza ESC
                     pygame.quit()
                     run = False
+                    quit()
 
 menu(death_count=0)
